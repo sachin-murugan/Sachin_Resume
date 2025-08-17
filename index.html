@@ -9,28 +9,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
-    <!-- Chosen Palette: Calm Harmony -->
-    <!-- Application Structure Plan: A single-page application with a sticky top navigation for easy access to key sections (About, Experience, Skills, Projects, Education). The structure prioritizes user-led exploration. The 'Experience' section uses an interactive tabbed interface to clearly showcase career progression at Freshworks. The 'Skills' section employs a bar chart for quick visual assessment. 'Projects' are presented in a clean card layout with a modal for detailed viewing. This non-linear, interactive design is chosen to be more engaging and efficient for a recruiter than a static document, allowing them to quickly find the information most relevant to them. -->
-    <!-- Visualization & Content Choices: 
-        - Experience: Report Info -> Job roles and responsibilities. Goal -> Show career growth. Viz -> Tabbed interface. Interaction -> Click tabs to reveal role details. Justification -> More organized and highlights progression better than a long list. Method -> Vanilla JS DOM manipulation.
-        - Skills: Report Info -> List of technical skills. Goal -> Provide a quick, visual summary of capabilities. Viz -> Horizontal Bar Chart. Interaction -> Hover for details. Justification -> More engaging and easier to scan than a text list. Library -> Chart.js.
-        - Projects: Report Info -> Project descriptions. Goal -> Offer a clean overview with optional deep-dive. Viz -> Cards with a modal popup. Interaction -> Click a button to open a modal with details. Justification -> Keeps the main layout uncluttered while providing access to important information. Method -> Vanilla JS for modal.
-    -->
-    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
     <style>
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #f8fafc; /* slate-50 */
-            color: #1e293b; /* slate-800 */
+            background-color: #f8fafc; 
+            color: #1e293b; 
         }
         .nav-link {
             transition: color 0.3s ease;
         }
         .nav-link:hover, .nav-link.active {
-            color: #0d9488; /* teal-600 */
+            color: #0d9488; 
         }
         .tab.active {
-            border-color: #0d9488; /* teal-600 */
+            border-color: #0d9488; 
             color: #0d9488;
             font-weight: 500;
         }
